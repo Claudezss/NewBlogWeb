@@ -10,7 +10,7 @@ import Radar from './components/Radar';
 import { ModalState } from './model';
 import EditableLinkGroup from './components/EditableLinkGroup';
 import styles from './style.less';
-import { ActivitiesType, CurrentUser, NoticeType, RadarDataType } from './data.d';
+import { ActivitiesType, CurrentUser, NoticeType, RadarDataType, Blog, CbcNews } from './data.d';
 
 const links = [
   {
@@ -45,6 +45,8 @@ interface HomeProps {
   activities: ActivitiesType[];
   radarData: RadarDataType[];
   dispatch: Dispatch<any>;
+  blog: Blog[];
+  cbc: CbcNews[];
   currentUserLoading: boolean;
   projectLoading: boolean;
   activitiesLoading: boolean;
@@ -140,46 +142,82 @@ class Home extends Component<HomeProps> {
       projectLoading,
       activitiesLoading,
       radarData,
+      blog,
+      cbc,
     } = this.props;
 
     if (!currentUser || !currentUser.userid) {
       return null;
     }
+    console.log(cbc);
     return (
       <PageHeaderWrapper
         content={<PageHeaderContent currentUser={currentUser} />}
         extraContent={<ExtraContent />}
       >
+        <Card
+          className={styles.projectList}
+          style={{ marginBottom: 24 }}
+          title="CBC NEWS"
+          bordered={false}
+          extra={<Link to="/">All</Link>}
+          loading={projectLoading}
+          bodyStyle={{ padding: 0 }}
+        >
+          {cbc.slice(0, 5).map(item => (
+            <Card.Grid className={styles.cbcGrid} key={item.title}>
+              <Card
+                bodyStyle={{ padding: 0 }}
+                bordered={false}
+                cover={<img alt="example" src={item.image} style={{ maxHeight: '100px' }} />}
+              >
+                <Card.Meta
+                  style={{ paddingTop: '15px' }}
+                  description={
+                    <p style={{ color: 'black' }}>
+                      <b>{item.title}</b>
+                    </p>
+                  }
+                />
+              </Card>
+            </Card.Grid>
+          ))}
+        </Card>
+
         <Row gutter={24}>
           <Col xl={16} lg={24} md={24} sm={24} xs={24}>
             <Card
               className={styles.projectList}
               style={{ marginBottom: 24 }}
-              title="进行中的项目"
+              title="Recent Articles"
               bordered={false}
-              extra={<Link to="/">全部项目</Link>}
+              extra={<Link to="/">All</Link>}
               loading={projectLoading}
               bodyStyle={{ padding: 0 }}
             >
-              {projectNotice.map(item => (
+              {blog.slice(0, 6).map(item => (
                 <Card.Grid className={styles.projectGrid} key={item.id}>
                   <Card bodyStyle={{ padding: 0 }} bordered={false}>
                     <Card.Meta
                       title={
                         <div className={styles.cardTitle}>
-                          <Avatar size="small" src={item.logo} />
-                          <Link to={item.href}>{item.title}</Link>
+                          <Avatar
+                            size="small"
+                            src="https://gw.alipayobjects.com/zos/rmsportal/gaOngJwsRYRaVAuXXcmB.png"
+                          />
+                          <Link to="">{item.category}</Link>
                         </div>
                       }
-                      description={item.description}
+                      description={
+                        <p style={{ color: 'black' }}>
+                          <b>{item.title}</b>
+                        </p>
+                      }
                     />
+
                     <div className={styles.projectItemContent}>
-                      <Link to={item.memberLink}>{item.member || ''}</Link>
-                      {item.updatedAt && (
-                        <span className={styles.datetime} title={item.updatedAt}>
-                          {moment(item.updatedAt).fromNow()}
-                        </span>
-                      )}
+                      <Link to="">Date: {item.created_time}</Link>
+                      <span>Views: {item.views}</span>
                     </div>
                   </Card>
                 </Card.Grid>
@@ -248,7 +286,7 @@ class Home extends Component<HomeProps> {
 
 export default connect(
   ({
-    home: { currentUser, projectNotice, activities, radarData },
+    home: { currentUser, projectNotice, activities, radarData, blog, cbc },
     loading,
   }: {
     home: ModalState;
@@ -262,8 +300,12 @@ export default connect(
     projectNotice,
     activities,
     radarData,
+    blog,
+    cbc,
     currentUserLoading: loading.effects['home/fetchUserCurrent'],
     projectLoading: loading.effects['home/fetchProjectNotice'],
     activitiesLoading: loading.effects['home/fetchActivitiesList'],
+    blogLoading: loading.effects['home/blog'],
+    cbcLoading: loading.effects['home/cbc'],
   }),
 )(Home);

@@ -13,7 +13,7 @@ export interface Comment {
 export interface Blog {
   title: string;
   body: string;
-  create_time: string;
+  created_time: string;
   modified_time: string;
   excerpt: string;
   views: number;
@@ -21,6 +21,12 @@ export interface Blog {
   category: string;
   id: number;
   comments: Comment[];
+}
+
+export interface CbcNews {
+  title: string;
+  link: string;
+  image: string;
 }
 
 export interface TagType {

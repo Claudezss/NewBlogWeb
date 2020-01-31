@@ -5,3 +5,9 @@ export async function BlogList() {
     method: 'GET',
   });
 }
+
+export async function CbcList() {
+  return request(`https://api.claudezhang.ca/cbc`, {
+    method: 'GET',
+  });
+}
