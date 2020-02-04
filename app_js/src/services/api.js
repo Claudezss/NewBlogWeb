@@ -72,12 +72,12 @@ export async function PostComments(params) {
 }
 
 export async function Login(params) {
+  console.log(params)
   return request('https://api.claudezhang.ca/login', {
     method: 'POST',
     headers: params.headers,
-    body: {
-      ...params,
-      method: 'post',
+    data: {
+     ...params
     },
   });
 }
@@ -85,7 +85,6 @@ export async function Login(params) {
 export async function DownloadBook(params) {
   return request('https://api.claudezhang.ca/downloadbook/', {
     method: 'POST',
-    headers: params.headers,
     body: {
       ...params,
       method: 'post',

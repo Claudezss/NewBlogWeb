@@ -1,20 +1,14 @@
-import {
-  fakeChartData,
-  queryActivities,
-  queryCurrent,
-  queryProjectNotice,
-} from './../pages/Dashboard/service';
-import { BlogList, CbcRssList } from '../services/api';
+import { BlogList, CbcRssList, Blog } from '../services/api';
+
 
 const Model = {
   namespace: 'blog',
   state: {
-    currentUser: undefined,
-    projectNotice: [],
-    activities: [],
-    radarData: [],
     blog: [],
     cbc: [],
+    categories:[],
+    catch:{},
+    blogDetail:{},
   },
   effects: {
     *init(_, { put }) {
@@ -24,25 +18,22 @@ const Model = {
       yield put({
         type: 'fetchCbc',
       });
-      yield put({
-        type: 'fetchUserCurrent',
-      });
-      yield put({
-        type: 'fetchProjectNotice',
-      });
-      yield put({
-        type: 'fetchActivitiesList',
-      });
-      yield put({
-        type: 'fetchChart',
-      });
     },
     *fetchBlog(_, { call, put }) {
       const response = yield call(BlogList);
       yield put({
-        type: 'save',
+        type: 'saveBlog',
         payload: {
           blog: Array.isArray(response) ? response : [],
+        },
+      });
+    },
+    *fetchBlogById({ payload }, { call, put }) {
+      const response = yield call(Blog, payload);
+      yield put({
+        type: 'saveDetail',
+        payload: {
+          blogDetail: response[0],
         },
       });
     },
@@ -53,49 +44,21 @@ const Model = {
         payload: response,
       });
     },
-
-    *fetchUserCurrent(_, { call, put }) {
-      const response = yield call(queryCurrent);
-      yield put({
-        type: 'save',
-        payload: {
-          currentUser: response,
-        },
-      });
-    },
-
-    *fetchProjectNotice(_, { call, put }) {
-      const response = yield call(queryProjectNotice);
-      yield put({
-        type: 'save',
-        payload: {
-          projectNotice: Array.isArray(response) ? response : [],
-        },
-      });
-    },
-
-    *fetchActivitiesList(_, { call, put }) {
-      const response = yield call(queryActivities);
-      yield put({
-        type: 'save',
-        payload: {
-          activities: Array.isArray(response) ? response : [],
-        },
-      });
-    },
-
-    *fetchChart(_, { call, put }) {
-      const { radarData } = yield call(fakeChartData);
-      yield put({
-        type: 'save',
-        payload: {
-          radarData,
-        },
-      });
-    },
   },
   reducers: {
     save(state, { payload }) {
+      return { ...state, ...payload };
+    },
+    saveBlog(state, { payload }) {
+      state.catch['blog'] = payload.blog;
+      payload.blog.forEach(item=>{
+        if (! state.categories.includes(item.category)){
+          state.categories.push(item.category);
+        }
+      });
+      return { ...state, ...payload };
+    },
+    saveDetail(state, { payload }) {
       return { ...state, ...payload };
     },
     cbcParse(state, action) {
@@ -114,15 +77,28 @@ const Model = {
         cbc: news,
       };
     },
-
+    categoryFilter(state,{payload}){
+      if(!payload) {
+        return{
+          ...state,
+          blog: state.catch['blog']
+        }
+      }
+      else {
+        return {
+          ...state,
+          blog: state.catch['blog'].filter(x => payload.includes(x.category)),
+        };
+      }
+    },
     clear() {
       return {
-        currentUser: undefined,
-        projectNotice: [],
-        activities: [],
         radarData: [],
         blog: [],
         cbc: [],
+        categories:[],
+        catch:{},
+        blogDetail:{}
       };
     },
   },

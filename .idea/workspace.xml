@@ -2,187 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76dc67f0-0e4f-411c-8514-d8abdb903792" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/config/defaultSettings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/mock/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/assets/head.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/assets/news.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/assets/python.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/components/Authorized/Authorized.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/components/Authorized/AuthorizedRoute.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/components/HeaderDropdown/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/layouts/BlankLayout.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/models/blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Dashboard/components/EditableLinkGroup/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Dashboard/model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/pages/user/login/components/Login/LoginContext.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/services/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/services/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/services/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/$id$.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/_mock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/components/AvatarList/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/components/AvatarList/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/components/StandardFormRow/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/components/StandardFormRow/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/components/TagSelect/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/components/TagSelect/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/data.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/style.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/utils/utils.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/.eslintignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.prettierignore" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/.prettierignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.prettierrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/.prettierrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.stylelintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/.stylelintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/config/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/defaultSettings.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/plugin.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/config/plugin.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/themePluginConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/config/themePluginConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/jest-puppeteer.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/jest-puppeteer.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/jsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mock/notices.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/mock/notices.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mock/route.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mock/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/mock/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/public/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/icons/icon-128x128.png" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/public/icons/icon-128x128.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/icons/icon-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/public/icons/icon-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/icons/icon-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/public/icons/icon-512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/assets/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/assets/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/Authorized/Authorized.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/Authorized/AuthorizedRoute.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/Authorized/CheckPermissions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/Authorized/CheckPermissions.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/Authorized/PromiseRender.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/Authorized/PromiseRender.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/Authorized/Secured.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/Authorized/Secured.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/Authorized/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/Authorized/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/Authorized/renderAuthorize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/Authorized/renderAuthorize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/GlobalHeader/AvatarDropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/GlobalHeader/AvatarDropdown.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/GlobalHeader/NoticeIconView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/GlobalHeader/NoticeIconView.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/GlobalHeader/RightContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/GlobalHeader/RightContent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/GlobalHeader/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/GlobalHeader/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/HeaderDropdown/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/HeaderDropdown/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/HeaderDropdown/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/HeaderSearch/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/HeaderSearch/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/HeaderSearch/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/HeaderSearch/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/NoticeIcon/NoticeList.less" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/NoticeIcon/NoticeList.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/NoticeIcon/NoticeList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/NoticeIcon/NoticeList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/NoticeIcon/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/NoticeIcon/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/NoticeIcon/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/NoticeIcon/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/PageLoading/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/PageLoading/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/SelectLang/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/SelectLang/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/SelectLang/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/SelectLang/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/e2e/__mocks__/antd-pro-merge-less.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/e2e/__mocks__/antd-pro-merge-less.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/e2e/baseLayout.e2e.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/e2e/baseLayout.e2e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/e2e/topMenu.e2e.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/e2e/topMenu.e2e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/global.less" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/global.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/global.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/global.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/layouts/BasicLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/layouts/BasicLayout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/layouts/BlankLayout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/layouts/SecurityLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/layouts/SecurityLayout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/layouts/UserLayout.less" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/layouts/UserLayout.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/layouts/UserLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/layouts/UserLayout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/en-US.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/en-US.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/en-US/component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/en-US/component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/en-US/globalHeader.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/en-US/globalHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/en-US/menu.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/en-US/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/en-US/pwa.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/en-US/pwa.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/en-US/settingDrawer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/en-US/settingDrawer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/en-US/settings.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/en-US/settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/pt-BR.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/pt-BR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/pt-BR/component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/pt-BR/component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/pt-BR/globalHeader.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/pt-BR/globalHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/pt-BR/menu.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/pt-BR/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/pt-BR/pwa.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/pt-BR/pwa.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/pt-BR/settingDrawer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/pt-BR/settingDrawer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/pt-BR/settings.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/pt-BR/settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/zh-CN.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/zh-CN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/zh-CN/component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/zh-CN/component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/zh-CN/globalHeader.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/zh-CN/globalHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/zh-CN/menu.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/zh-CN/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/zh-CN/pwa.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/zh-CN/pwa.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/zh-CN/settingDrawer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/zh-CN/settingDrawer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/zh-CN/settings.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/zh-CN/settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/zh-TW.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/zh-TW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/zh-TW/component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/zh-TW/component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/zh-TW/globalHeader.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/zh-TW/globalHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/zh-TW/menu.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/zh-TW/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/zh-TW/pwa.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/zh-TW/pwa.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/zh-TW/settingDrawer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/zh-TW/settingDrawer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/locales/zh-TW/settings.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/zh-TW/settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/models/connect.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/models/global.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/models/global.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/models/login.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/models/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/models/setting.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/models/setting.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/models/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/404.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/404.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/Admin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/Admin.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/Authorized.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/Authorized.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/Welcome.less" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/Welcome.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/Welcome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/Welcome.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/articles/_mock.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/articles/components/AvatarList/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/articles/components/AvatarList/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/articles/components/StandardFormRow/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/articles/components/StandardFormRow/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/articles/components/TagSelect/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/articles/components/TagSelect/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/articles/data.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/articles/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/articles/model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/articles/service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/articles/style.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/articles/utils/utils.less" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/utils/utils.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/document.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/document.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/home/_mock.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/Dashboard/_mock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/home/components/EditableLinkGroup/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/Dashboard/components/EditableLinkGroup/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/home/components/EditableLinkGroup/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/home/components/Radar/autoHeight.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/Dashboard/components/Radar/autoHeight.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/home/components/Radar/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/Dashboard/components/Radar/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/home/components/Radar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/Dashboard/components/Radar/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/home/data.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/Dashboard/data.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/Dashboard/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/home/model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/home/service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/Dashboard/service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/home/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/Dashboard/style.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/me/Center.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/me/_mock.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/me/components/Applications/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/me/components/Applications/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/me/components/ArticleListContent/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/me/components/ArticleListContent/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/me/components/Articles/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/me/components/Articles/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/me/components/AvatarList/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/me/components/AvatarList/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/me/components/Projects/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/me/components/Projects/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/me/data.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/me/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/me/model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/me/service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/user/login/components/Login/LoginContext.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/user/login/components/Login/LoginItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/user/login/components/Login/LoginItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/user/login/components/Login/LoginSubmit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/user/login/components/Login/LoginSubmit.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/user/login/components/Login/LoginTab.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/user/login/components/Login/LoginTab.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/user/login/components/Login/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/user/login/components/Login/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/user/login/components/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/user/login/components/Login/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/user/login/components/Login/map.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/user/login/components/Login/map.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/user/login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/user/login/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/user/login/locales/en-US.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/user/login/locales/en-US.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/user/login/locales/zh-CN.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/user/login/locales/zh-CN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/user/login/locales/zh-TW.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/user/login/locales/zh-TW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/user/login/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/user/login/style.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/services/apis.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/services/login.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/services/user.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/typings.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/utils/Authorized.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/utils/Authorized.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/utils/authority.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/utils/authority.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/utils/authority.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/utils/authority.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/utils/request.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/utils/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/utils/utils.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/utils/utils.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/utils/utils.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/utils/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/utils/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tests/run-tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/tests/run-tests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tests/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/tests/setupTests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_js/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_js/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/config/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_js/config/defaultSettings.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/config/defaultSettings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_js/src/components/GlobalHeader/AvatarDropdown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/GlobalHeader/AvatarDropdown.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_js/src/components/GlobalHeader/RightContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/GlobalHeader/RightContent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_js/src/layouts/SecurityLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/layouts/SecurityLayout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_js/src/layouts/UserLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/layouts/UserLayout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_js/src/locales/en-US/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/en-US/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_js/src/models/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/models/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_js/src/models/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_js/src/models/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/models/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_js/src/models/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_js/src/pages/Dashboard/components/EditableLinkGroup/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/Dashboard/components/EditableLinkGroup/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_js/src/pages/Dashboard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/Dashboard/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_js/src/pages/document.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/document.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_js/src/pages/user/login/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/user/login/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_js/src/services/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/services/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_js/src/services/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_js/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/utils/request.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -196,44 +49,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_js/src/pages/Dashboard/index.jsx">
+        <entry file="file://$PROJECT_DIR$/app_js/src/pages/Article/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+            <state relative-caret-position="84">
+              <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
               <folding>
-                <element signature="e#0#73#0" expanded="true" />
-                <element signature="e#2035#2849#0" />
+                <element signature="e#0#46#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_js/src/utils/utils.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_js/src/utils/request.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#80#117#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_js/src/utils/authority.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -241,27 +63,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app_js/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-856" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_js/src/pages/Dashboard/components/Radar/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="146" column="15" selection-start-line="146" selection-start-column="15" selection-end-line="146" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#62#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_js/src/pages/Dashboard/_mock.js">
+        <entry file="file://$PROJECT_DIR$/app_js/src/pages/Article/$id$.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="348" column="3" selection-start-line="348" selection-start-column="3" selection-end-line="348" selection-end-column="3" />
+            <state relative-caret-position="15">
+              <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -311,31 +123,47 @@
         <option value="$PROJECT_DIR$/app/src/pages/articles/data.d.ts" />
         <option value="$PROJECT_DIR$/app/src/pages/articles/index.tsx" />
         <option value="$PROJECT_DIR$/app_js/src/layouts/BasicLayout.jsx" />
-        <option value="$PROJECT_DIR$/app_js/src/locales/en-US/menu.js" />
-        <option value="$PROJECT_DIR$/app_js/config/config.js" />
-        <option value="$PROJECT_DIR$/app_js/src/models/global.js" />
         <option value="$PROJECT_DIR$/app_js/src/pages/Dashboard/style.less" />
-        <option value="$PROJECT_DIR$/app_js/src/models/blog.js" />
         <option value="$PROJECT_DIR$/app_js/mock/user.js" />
         <option value="$PROJECT_DIR$/app_js/src/pages/Dashboard/components/Radar/index.jsx" />
         <option value="$PROJECT_DIR$/app_js/src/pages/Dashboard/_mock.js" />
-        <option value="$PROJECT_DIR$/app_js/config/defaultSettings.js" />
-        <option value="$PROJECT_DIR$/app_js/src/pages/Dashboard/components/EditableLinkGroup/index.jsx" />
-        <option value="$PROJECT_DIR$/app_js/src/pages/Dashboard/index.jsx" />
         <option value="$PROJECT_DIR$/app_js/src/utils/utils.test.js" />
-        <option value="$PROJECT_DIR$/app_js/src/utils/request.js" />
         <option value="$PROJECT_DIR$/app_js/src/utils/authority.test.js" />
-        <option value="$PROJECT_DIR$/app_js/src/services/user.js" />
         <option value="$PROJECT_DIR$/app_js/src/services/login.js" />
+        <option value="$PROJECT_DIR$/app_js/src/pages/Article/components/TagSelect/index.jsx" />
+        <option value="$PROJECT_DIR$/app_js/src/pages/Article/$id.js" />
+        <option value="$PROJECT_DIR$/app_js/src/locales/en-US/menu.js" />
+        <option value="$PROJECT_DIR$/app_js/.eslintignore" />
+        <option value="$PROJECT_DIR$/app_js/src/layouts/UserLayout.jsx" />
+        <option value="$PROJECT_DIR$/app_js/config/defaultSettings.js" />
         <option value="$PROJECT_DIR$/app_js/src/services/api.js" />
+        <option value="$PROJECT_DIR$/app_js/src/utils/authority.js" />
+        <option value="$PROJECT_DIR$/app_js/src/pages/Article/style.less" />
+        <option value="$PROJECT_DIR$/app_js/src/utils/request.js" />
+        <option value="$PROJECT_DIR$/app_js/src/models/login.js" />
+        <option value="$PROJECT_DIR$/app_js/src/pages/user/login/index.jsx" />
+        <option value="$PROJECT_DIR$/app_js/src/components/GlobalHeader/RightContent.jsx" />
+        <option value="$PROJECT_DIR$/app_js/src/pages/document.ejs" />
+        <option value="$PROJECT_DIR$/app_js/config/config.js" />
+        <option value="$PROJECT_DIR$/app_js/src/layouts/SecurityLayout.jsx" />
+        <option value="$PROJECT_DIR$/app_js/src/models/global.js" />
+        <option value="$PROJECT_DIR$/app_js/src/services/user.js" />
+        <option value="$PROJECT_DIR$/app_js/src/components/GlobalHeader/AvatarDropdown.jsx" />
+        <option value="$PROJECT_DIR$/app_js/src/models/blog.js" />
+        <option value="$PROJECT_DIR$/app_js/src/pages/Dashboard/index.jsx" />
+        <option value="$PROJECT_DIR$/app_js/src/models/user.js" />
+        <option value="$PROJECT_DIR$/app_js/src/pages/Dashboard/components/EditableLinkGroup/index.jsx" />
+        <option value="$PROJECT_DIR$/app_js/src/pages/Article/$id$.jsx" />
+        <option value="$PROJECT_DIR$/app_js/src/pages/Article/index.jsx" />
+        <option value="$PROJECT_DIR$/app_js/package.json" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="168" />
-    <option name="y" value="68" />
-    <option name="width" value="1272" />
-    <option name="height" value="751" />
+    <option name="x" value="166" />
+    <option name="y" value="54" />
+    <option name="width" value="1241" />
+    <option name="height" value="723" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -354,19 +182,6 @@
               <item name="new-blog-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="new-blog-web" type="462c0819:PsiDirectoryNode" />
               <item name="app_js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-blog-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-blog-web" type="462c0819:PsiDirectoryNode" />
-              <item name="app_js" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new-blog-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-blog-web" type="462c0819:PsiDirectoryNode" />
-              <item name="app_js" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -416,22 +231,23 @@
       <workItem from="1580435506865" duration="8528000" />
       <workItem from="1580525355271" duration="1701000" />
       <workItem from="1580614433752" duration="4817000" />
-      <workItem from="1580657610672" duration="12370000" />
+      <workItem from="1580657610672" duration="20698000" />
+      <workItem from="1580696509127" duration="7268000" />
+      <workItem from="1580768955820" duration="4653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33846000" />
+    <option name="totallyTimeSpent" value="54095000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="168" y="68" width="1272" height="751" extended-state="0" />
-    <editor active="true" />
+    <frame x="166" y="54" width="1241" height="723" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49885058" visible="true" weight="0.25179857" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49885058" visible="true" weight="0.2581967" />
       <window_info id="Structure" order="1" sideWeight="0.5011494" side_tool="true" weight="0.25179857" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32928678" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -440,7 +256,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.3287879" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49880096" visible="true" weight="0.57056147" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49880096" visible="true" weight="0.29952458" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50119907" side_tool="true" weight="0.3409091" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -451,219 +267,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/utils/authority.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/utils/Authorized.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pages/Admin.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pages/Authorized.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/models/user.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-968">
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/models/global.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1763">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/models/login.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1088">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/defaultSettings.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mock/user.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/services/user.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/services/login.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pages/home/service.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pages/document.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/models/connect.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/locales/en-US/menu.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="117" column="35" selection-start-line="117" selection-start-column="35" selection-end-line="117" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/models/blog.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pages/home/_mock.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="360" column="18" lean-forward="true" selection-start-line="360" selection-start-column="18" selection-end-line="360" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/models/blog.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pages/home/data.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pages/home/model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2190">
-          <caret line="146" column="22" lean-forward="true" selection-start-line="146" selection-start-column="22" selection-end-line="146" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/services/apis.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pages/articles/model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pages/articles/service.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pages/articles/data.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pages/articles/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="104" column="16" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_js/config/plugin.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_js/config/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="115" column="30" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
-          <folding>
-            <element signature="e#79#106#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_js/src/layouts/BasicLayout.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -671,32 +274,6 @@
           <folding>
             <element signature="e#165#231#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_js/src/locales/en-US/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_js/src/models/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_js/src/models/user.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_js/src/models/global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -714,37 +291,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pages/home/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="162" column="3" lean-forward="true" selection-start-line="160" selection-start-column="2" selection-end-line="162" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_js/src/models/blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_js/mock/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-291">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pages/home/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/pages/home/style.less" />
+    <entry file="file://$PROJECT_DIR$/app/src/pages/home/index.tsx" />
     <entry file="file://$PROJECT_DIR$/app_js/src/pages/Dashboard/components/Radar/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -755,38 +303,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_js/src/pages/Dashboard/_mock.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="348" column="3" selection-start-line="348" selection-start-column="3" selection-end-line="348" selection-end-column="3" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app_js/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_js/config/defaultSettings.js">
+    <entry file="file://$PROJECT_DIR$/app_js/src/utils/authority.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_js/src/pages/Dashboard/components/EditableLinkGroup/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_js/src/pages/Dashboard/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-            <element signature="e#2035#2849#0" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -797,47 +320,302 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_js/src/utils/request.js">
+    <entry file="file://$PROJECT_DIR$/app_js/src/locales/en-US/pwa.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/pages/Article/_mock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/pages/Article/data.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/pages/Article/components/TagSelect/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="45" column="3" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/pages/Article/$id.js" />
+    <entry file="file://$PROJECT_DIR$/app_js/src/pages/Article/$id$/index.jsx" />
+    <entry file="file://$PROJECT_DIR$/app_js/src/locales/en-US/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/pages/Welcome.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/pages/Welcome.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/jsconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/.stylelintrc.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/.eslintignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/layouts/UserLayout.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/services/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/utils/authority.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/pages/Article/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/utils/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="52" column="15" lean-forward="true" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
           <folding>
             <element signature="e#80#117#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_js/src/services/api.js">
+    <entry file="file://$PROJECT_DIR$/app_js/src/pages/user/login/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="72" column="18" lean-forward="true" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+        <state relative-caret-position="930">
+          <caret line="62" column="14" lean-forward="true" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_js/src/services/login.js">
+    <entry file="file://$PROJECT_DIR$/app_js/src/services/api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="1110">
+          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/components/GlobalHeader/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-398" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/config/defaultSettings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/pages/document.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/models/global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/mock/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="93" column="27" lean-forward="true" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app_js/src/services/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_js/src/utils/authority.test.js">
+    <entry file="file://$PROJECT_DIR$/app_js/src/layouts/SecurityLayout.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="210">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/config/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="89" column="45" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
+          <folding>
+            <element signature="e#79#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/models/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-381">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/pages/Dashboard/_mock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2681">
+          <caret line="375" column="3" lean-forward="true" selection-start-line="331" selection-end-line="375" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/components/GlobalHeader/RightContent.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/components/HeaderDropdown/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-271">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/components/GlobalHeader/NoticeIconView.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/components/GlobalHeader/AvatarDropdown.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/pages/Dashboard/components/EditableLinkGroup/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/pages/Dashboard/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3282">
+          <caret line="236" column="22" selection-start-line="236" selection-start-column="22" selection-end-line="236" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#82#0" expanded="true" />
+            <element signature="e#593#841#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/models/blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-609">
+          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/pages/Article/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/pages/Article/$id$.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/src/pages/Article/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app_js/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-856" />
+        <state relative-caret-position="225">
+          <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+        </state>
       </provider>
     </entry>
   </component>

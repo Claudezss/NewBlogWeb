@@ -8,8 +8,9 @@ import Radar from './components/Radar';
 import EditableLinkGroup from './components/EditableLinkGroup';
 import styles from './style.less';
 import Logo from './../../assets/head.jpg';
-import Python from '../../../../app/src/assets/python.png';
-import News from '../../../../app/src/assets/news.png';
+import Python from '../../assets/python.png';
+import News from '../../assets/news.png';
+import router from 'umi/router';
 
 const links = [
   {
@@ -30,20 +31,53 @@ const links = [
   },
 ];
 
-const PageHeaderContent = ({ currentUser }) => {
-  const loading = currentUser && Object.keys(currentUser).length;
+const radarOriginData = [
+  {
+    name: 'Usage',
+    ref: 10,
+    koubei: 9,
+    output: 4,
+    contribute: 5,
+    hot: 7,
+  },
+  {
+    name: 'Depth',
+    ref: 3,
+    koubei: 9,
+    output: 6,
+    contribute: 3,
+    hot: 1,
+  },
+  {
+    name: 'Knowledge',
+    ref: 4,
+    koubei: 1,
+    output: 6,
+    contribute: 5,
+    hot: 7,
+  },
+];
+const radarData = [];
+const radarTitleMap = {
+  ref: 'Python',
+  koubei: 'React',
+  output: 'PHP',
+  contribute: 'AWS',
+  hot: 'Matlab',
+};
+radarOriginData.forEach(item => {
+  Object.keys(item).forEach(key => {
+    if (key !== 'name') {
+      radarData.push({
+        name: item.name,
+        label: radarTitleMap[key],
+        value: item[key],
+      });
+    }
+  });
+});
 
-  if (!loading) {
-    return (
-      <Skeleton
-        avatar
-        paragraph={{
-          rows: 1,
-        }}
-        active
-      />
-    );
-  }
+const PageHeaderContent = () => {
 
   return (
     <div className={styles.pageHeaderContent}>
@@ -53,7 +87,7 @@ const PageHeaderContent = ({ currentUser }) => {
       <div className={styles.content}>
         <div className={styles.contentTitle}>
           Howdy，
-          {currentUser.name || 'Guest'}
+          {'Guest'}
         </div>
         <div>Welcome to my blog, hope you can have fun -- Claude</div>
       </div>
@@ -90,39 +124,6 @@ class Dashboard extends Component {
     });
   }
 
-  renderActivities = item => {
-    const events = item.template.split(/@\{([^{}]*)\}/gi).map(key => {
-      if (item[key]) {
-        return (
-          <a href={item[key].link} key={item[key].name}>
-            {item[key].name}
-          </a>
-        );
-      }
-
-      return key;
-    });
-    return (
-      <List.Item key={item.id}>
-        <List.Item.Meta
-          avatar={<Avatar src={item.user.avatar} />}
-          title={
-            <span>
-              <a className={styles.username}>{item.user.name}</a>
-              &nbsp;
-              <span className={styles.event}>{events}</span>
-            </span>
-          }
-          description={
-            <span className={styles.datetime} title={item.updatedAt}>
-              {moment(item.updatedAt).fromNow()}
-            </span>
-          }
-        />
-      </List.Item>
-    );
-  };
-
   classifyLogo = blog => {
     switch (blog.category) {
       case 'Python':
@@ -137,15 +138,11 @@ class Dashboard extends Component {
   };
 
   render() {
-    const { currentUser, blogLoading, blog, cbc, cbcLoading, radarData } = this.props;
-
-    if (!currentUser || !currentUser.userid) {
-      return null;
-    }
+    const { blogLoading, blog, cbc, cbcLoading} = this.props;
 
     return (
       <PageHeaderWrapper
-        content={<PageHeaderContent currentUser={currentUser} />}
+        content={<PageHeaderContent />}
         extraContent={<ExtraContent blog={blog} />}
       >
         <Card
@@ -192,7 +189,7 @@ class Dashboard extends Component {
               }}
               title="Recent Articles"
               bordered={false}
-              extra={<Link to="/">All</Link>}
+              extra={<Link to="/article">All</Link>}
               loading={blogLoading}
               bodyStyle={{
                 padding: 0,
@@ -200,7 +197,7 @@ class Dashboard extends Component {
             >
               {blog.slice(0, 9).map(item => (
                 <Card.Grid className={styles.projectGrid} key={item.id}>
-                  <Card bodyStyle={{ padding: 0 }} bordered={false}>
+                  <Card bodyStyle={{ padding: 0 }} bordered={false} onClick={()=>router.push('/article/'+item.id)}>
                     <Card.Meta
                       title={
                         <div className={styles.cardTitle}>
@@ -234,7 +231,7 @@ class Dashboard extends Component {
                 padding: 0,
               }}
             >
-              <EditableLinkGroup onAdd={() => {}} links={links} linkElement={Link} />
+              <EditableLinkGroup links={links} linkElement={Link} />
             </Card>
             <Card
               style={{
@@ -256,16 +253,9 @@ class Dashboard extends Component {
 }
 
 export default connect(
-  ({ blog: { currentUser, projectNotice, activities, radarData, blog, cbc }, loading }) => ({
-    currentUser,
-    projectNotice,
-    activities,
-    radarData,
+  ({ blog: { blog, cbc }, loading }) => ({
     blog,
     cbc,
-    currentUserLoading: loading.effects['blog/fetchUserCurrent'],
-    projectLoading: loading.effects['blog/fetchProjectNotice'],
-    activitiesLoading: loading.effects['blog/fetchActivitiesList'],
     blogLoading: loading.effects['blog/fetchBlog'],
     cbcLoading: loading.effects['blog/fetchCbc'],
   }),

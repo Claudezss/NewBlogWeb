@@ -99,23 +99,23 @@ export default {
               redirect: '/dashboard',
             },
             {
-              path: '/welcome',
-              name: 'welcome',
-              icon: 'smile',
-              component: './Welcome',
-            },
-            {
-              path: '/admin',
-              name: 'admin',
-              icon: 'crown',
-              component: './Admin',
-              authority: ['admin'],
-            },
-            {
               name: 'dashboard',
               icon: 'dashboard',
               path: '/dashboard',
               component: './Dashboard',
+            },
+            {
+              name: 'article',
+              icon: 'book',
+              path: '/article',
+              component: './Article',
+            },
+            {
+              hideInMenu:true,
+              name: 'detail',
+              icon: 'smile',
+              path: '/article/:id?',
+              component: './Article/$id$.jsx',
             },
             {
               component: './404',

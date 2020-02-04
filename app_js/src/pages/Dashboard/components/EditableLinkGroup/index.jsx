@@ -1,14 +1,12 @@
 import React, { createElement } from 'react';
-import { PlusOutlined } from '@ant-design/icons';
-import { Button } from 'antd';
 import styles from './index.less';
 
 const EditableLinkGroup = props => {
-  const { links, linkElement, onAdd } = props;
+  const { links} = props;
   return (
     <div className={styles.linkGroup}>
       {links.map(link => (
-        <a href={link.href} target="_blank">
+        <a href={link.href} target="_blank" key={link.title+"linked"}>
           {link.title}
         </a>
       ))}

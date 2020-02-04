@@ -1,16 +1,17 @@
 import { stringify } from 'querystring';
 import { router } from 'umi';
-import { fakeAccountLogin, getFakeCaptcha } from '@/services/login';
-import { setAuthority } from '@/utils/authority';
+import { Login } from '@/services/api';
 import { getPageQuery } from '@/utils/utils';
 const Model = {
   namespace: 'login',
   state: {
     status: undefined,
+    message:"",
   },
   effects: {
     *login({ payload }, { call, put }) {
-      const response = yield call(fakeAccountLogin, payload);
+      const response = yield call(Login, payload);
+      console.log(response);
       yield put({
         type: 'changeLoginStatus',
         payload: response,
@@ -39,28 +40,36 @@ const Model = {
         router.replace(redirect || '/');
       }
     },
-
-    *getCaptcha({ payload }, { call }) {
-      yield call(getFakeCaptcha, payload);
-    },
-
     logout() {
       const { redirect } = getPageQuery(); // Note: There may be security issues, please note
-
-      if (window.location.pathname !== '/user/login' && !redirect) {
-        router.replace({
-          pathname: '/user/login',
-          search: stringify({
-            redirect: window.location.href,
-          }),
-        });
-      }
+      localStorage.clear();
+      location.reload();
     },
   },
   reducers: {
-    changeLoginStatus(state, { payload }) {
-      setAuthority(payload.currentAuthority);
-      return { ...state, status: payload.status, type: payload.type };
+    changeLoginStatus(state, action) {
+      const tokenData=action.payload;
+      //console.log(action.payload);
+      if(tokenData.code!=='00001'){
+        state.status="fail";
+        state.message = tokenData.result;
+        return{
+          ...state,
+          code:tokenData.code,
+          logStatus:false,
+        }
+      }
+      localStorage.setItem('token',tokenData.token);
+      localStorage.setItem('login','true');
+      localStorage.setItem('name','claude');
+      state.status="true";
+      state.message = tokenData.result;
+      return {
+        ...state,
+        code:tokenData.code,
+        logStatus:true,
+        message:tokenData.result,
+      };
     },
   },
 };

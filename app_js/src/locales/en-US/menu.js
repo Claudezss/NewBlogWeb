@@ -5,6 +5,8 @@ export default {
   'menu.myhome': 'Home',
   'menu.admin': 'admin',
   'menu.login': 'Login',
+  'menu.article': 'Article',
+  'menu.detail': 'Article Detail',
   'menu.register': 'Register',
   'menu.register.result': 'Register Result',
   'menu.dashboard': 'Dashboard',
