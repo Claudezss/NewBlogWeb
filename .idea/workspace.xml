@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76dc67f0-0e4f-411c-8514-d8abdb903792" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/$id$.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/_mock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/components/AvatarList/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/components/AvatarList/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/components/StandardFormRow/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/components/StandardFormRow/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/components/TagSelect/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/components/TagSelect/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/data.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/style.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_js/src/pages/Article/utils/utils.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_js/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/.eslintignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_js/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/config/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_js/config/defaultSettings.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/config/defaultSettings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_js/src/components/GlobalHeader/AvatarDropdown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/GlobalHeader/AvatarDropdown.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_js/src/components/GlobalHeader/RightContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/components/GlobalHeader/RightContent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_js/src/layouts/SecurityLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/layouts/SecurityLayout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_js/src/layouts/UserLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/layouts/UserLayout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_js/src/locales/en-US/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/locales/en-US/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_js/src/models/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/models/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_js/src/models/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_js/src/models/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/models/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_js/src/models/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_js/src/pages/Dashboard/components/EditableLinkGroup/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/Dashboard/components/EditableLinkGroup/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_js/src/pages/Dashboard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/Dashboard/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_js/src/pages/document.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/document.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_js/src/pages/user/login/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/pages/user/login/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_js/src/services/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/services/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_js/src/services/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_js/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_js/src/utils/request.js" afterDir="false" />
-    </list>
+    <list default="true" id="76dc67f0-0e4f-411c-8514-d8abdb903792" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -47,38 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_js/src/pages/Article/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app_js/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_js/src/pages/Article/$id$.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -183,6 +117,27 @@
               <item name="new-blog-web" type="462c0819:PsiDirectoryNode" />
               <item name="app_js" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="new-blog-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new-blog-web" type="462c0819:PsiDirectoryNode" />
+              <item name="app_js" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="new-blog-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new-blog-web" type="462c0819:PsiDirectoryNode" />
+              <item name="app_js" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="new-blog-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new-blog-web" type="462c0819:PsiDirectoryNode" />
+              <item name="app_js" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -233,17 +188,17 @@
       <workItem from="1580614433752" duration="4817000" />
       <workItem from="1580657610672" duration="20698000" />
       <workItem from="1580696509127" duration="7268000" />
-      <workItem from="1580768955820" duration="4653000" />
+      <workItem from="1580768955820" duration="4966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54095000" />
+    <option name="totallyTimeSpent" value="54408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="166" y="54" width="1241" height="723" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49885058" visible="true" weight="0.2581967" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49885058" visible="true" weight="0.2581967" />
       <window_info id="Structure" order="1" sideWeight="0.5011494" side_tool="true" weight="0.25179857" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -256,7 +211,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.3287879" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49880096" visible="true" weight="0.29952458" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49880096" visible="true" weight="0.29952458" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50119907" side_tool="true" weight="0.3409091" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -594,6 +549,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app_js/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app_js/src/pages/Article/$id$.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -608,13 +570,6 @@
           <folding>
             <element signature="e#0#46#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_js/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
         </state>
       </provider>
     </entry>

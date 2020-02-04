@@ -97,9 +97,7 @@ class Login extends Component {
               )}
             <UserName
               name="username"
-              placeholder={`${formatMessage({
-                id: 'user-login.login.userName',
-              })}: admin or user`}
+              placeholder={`username`}
               rules={[
                 {
                   required: true,
@@ -111,9 +109,7 @@ class Login extends Component {
             />
             <Password
               name="password"
-              placeholder={`${formatMessage({
-                id: 'user-login.login.password',
-              })}: ant.design`}
+              placeholder={`password`}
               rules={[
                 {
                   required: true,
