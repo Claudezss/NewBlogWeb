@@ -1,8 +1,7 @@
-import { Alert, Checkbox, Icon } from 'antd';
+import { Alert} from 'antd';
 import { FormattedMessage, formatMessage } from 'umi-plugin-react/locale';
 import React, { Component } from 'react';
 import { connect } from 'dva';
-import { router } from 'umi';
 import LoginComponents from './components/Login';
 import styles from './style.less';
 const { Tab, UserName, Password, Submit } = LoginComponents;
@@ -14,7 +13,6 @@ class Login extends Component {
     autoLogin: true,
   };
   handleSubmit = (err, values) => {
-    const { type } = this.state;
 
     if (!err) {
       const { dispatch } = this.props;

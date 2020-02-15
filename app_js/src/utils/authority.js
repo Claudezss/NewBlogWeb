@@ -2,10 +2,9 @@ import { reloadAuthorized } from './Authorized'; // use localStorage to store th
 
 export function getAuthority(str) {
   const authorityString =
-    typeof str === 'undefined' && localStorage ? localStorage.getItem('antd-pro-authority') : str; // authorityString could be admin, "admin", ["admin"]
+    typeof str === 'undefined' && localStorage ? localStorage.getItem('name') : str; // authorityString could be admin, "admin", ["admin"]
 
   let authority;
-
   try {
     if (authorityString) {
       authority = JSON.parse(authorityString);
