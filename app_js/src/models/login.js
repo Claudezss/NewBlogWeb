@@ -1,4 +1,3 @@
-import { stringify } from 'querystring';
 import { router } from 'umi';
 import { Login } from '@/services/api';
 import { getPageQuery } from '@/utils/utils';
@@ -41,7 +40,6 @@ const Model = {
       }
     },
     logout() {
-      const { redirect } = getPageQuery(); // Note: There may be security issues, please note
       localStorage.clear();
       location.reload();
     },
@@ -49,7 +47,6 @@ const Model = {
   reducers: {
     changeLoginStatus(state, action) {
       const tokenData=action.payload;
-      //console.log(action.payload);
       if(tokenData.code!=='00001'){
         state.status="fail";
         state.message = tokenData.result;
