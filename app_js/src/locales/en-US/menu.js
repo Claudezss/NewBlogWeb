@@ -5,6 +5,7 @@ export default {
   'menu.myhome': 'Home',
   'menu.admin': 'admin',
   'menu.login': 'Login',
+  'menu.secret': 'Secret',
   'menu.article': 'Article',
   'menu.detail': 'Article Detail',
   'menu.register': 'Register',

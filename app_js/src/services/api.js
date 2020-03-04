@@ -18,6 +18,12 @@ export async function CbcRssList() {
   });
 }
 
+export async function DownloadEhentai(params) {
+  return request(`https://api.claudezhang.ca/secret/ehentai/?url=${params.url}&name=${params.name}`, {
+    method: 'GET',
+  });
+}
+
 export async function CategoryList(params) {
   return request(`https://api.claudezhang.ca/blog/category/?format=json`, {
     method: 'GET',
@@ -72,7 +78,6 @@ export async function PostComments(params) {
 }
 
 export async function Login(params) {
-  console.log(params)
   return request('https://api.claudezhang.ca/login', {
     method: 'POST',
     headers: params.headers,

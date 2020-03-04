@@ -118,6 +118,13 @@ export default {
               component: './Article/$id$.jsx',
             },
             {
+              name: 'secret',
+              icon: 'book',
+              path: '/secret',
+              component: './Secret',
+              authority: ['claude'],
+            },
+            {
               component: './404',
             },
           ],
